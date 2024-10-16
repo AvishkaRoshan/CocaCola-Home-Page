@@ -1,0 +1,168 @@
+
+
+*{
+    margin: o;
+    padding: 0;
+    box-sizing: poppins;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+body{
+    margin: 0 auto;
+}
+/* navigatin */
+nav{
+    background-color:black;
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 3rem ;
+    justify-content: space-between;
+    align-items: center;
+
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 5rem;
+    font-size: 20px;
+    color: aliceblue;
+    align-items: center;
+
+}
+.a1{
+    border: non;
+    font-size: 20px;
+    padding: 5px 20px;
+    border-radius: 20px;
+    background-color:red;
+}
+a{
+    text-decoration: none;
+}
+/* about */
+.a3{
+    color:white;
+    background-color:black;
+    height: 400px;
+    padding:4rem 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+}
+h1{
+    font-size: 3rem;
+}
+p{
+    opacity: 0.5;
+}
+/* picture */
+
+    
+
+.a5{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px;
+    position:absolute;
+    top: 690px;
+    width: 50%;
+}
+.a5>:nth-child(2){
+    grid-row: span 2;
+}
+.a4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* our story */
+.a7{
+    margin-top: 600px;
+    padding: 0rem 5rem;
+    display: flex;
+    flex-direction: column;
+    gap:2px
+    
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+button{
+    padding: 15px 50px;
+    border-radius: 100px;
+    border: none;
+    background-color:rgb(218, 19, 19);
+}
+.a6{
+    background-color: aliceblue;
+    border: 2px solid black;
+    
+}
+/* our numbers */
+    
+.a8{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+.a9{
+    display: flex;
+    flex-direction: row;
+    gap: 50rem;
+}
+h2{
+    color: red;
+}
+    
+.a10{
+    padding: 0rem 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0rem;
+}
+.a11{
+    padding: 0rem 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
+
+}
+.a12{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+.a13{
+    display: flex;
+    flex-direction:row;
+    background-color:gray;
+}
+.a14{
+justify-content: center;
+}
+.a15{
+    margin-top: 20px;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    margin: 2rem 4rem;
+    justify-content: space-between;
+}
+.a17{
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+}
